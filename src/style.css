@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(251, 105, 100);
+    color: rgb(251, 105, 100);
+}
+#quote-box {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+#new-quote {
+    margin-right: 10px;
+}
+#new-quote {
+    cursor: pointer;
+}
