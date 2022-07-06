@@ -14,16 +14,22 @@ export default class Quote extends Component {
       <div id="quote-box">
         <h4 id="text">"{this.state.quote}"</h4>
         <h4 id="author">- {this.state.author}</h4>
-        <button id="new-quote" onClick={this.generateQuote}>
-          New Quote
-        </button>
-        <a
-          href={`https://twitter.com/intent/tweet/?text="${this.state.quote}" ${this.state.author}&hashtags=quotes`}
-          target="_blank"
-          id="tweet-button"
-        >
-          <i class="fa-brands fa-twitter-square fa-lg"></i>
-        </a>
+        <div id="buttons">
+          <button
+            id="new-quote"
+            class="btn btn-primary"
+            onClick={this.generateQuote}
+          >
+            New Quote
+          </button>
+          <a
+            href={`https://twitter.com/intent/tweet/?text="${this.state.quote}" ${this.state.author}&hashtags=quotes`}
+            target="_blank"
+            id="tweet-button"
+          >
+            <i class="fa-brands fa-twitter-square fa-3x twitter-icon"></i>
+          </a>
+        </div>
       </div>
     );
   }

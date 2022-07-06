@@ -1,16 +1,32 @@
 body {
-    font-family: Helvetica, sans-serif;
-    background-color: rgb(251, 105, 100);
-    color: rgb(251, 105, 100);
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(251, 105, 100);
+  color: rgb(251, 105, 100);
+}
+#text {
+  font-size: 50px;
+}
+#author {
+  font-size: 25px;
 }
 #quote-box {
-    text-align: center;
-    background-color: white;
-    padding: 30px;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
 }
 #new-quote {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 #new-quote {
-    cursor: pointer;
+  cursor: pointer;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
 }
